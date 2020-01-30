@@ -1,0 +1,17 @@
+Create a new folder
+
+Drag all files from canvas (all .java plus the .policy)
+
+Open Command console from the folder
+
+In cmd, type javac *.java
+
+Then type rmic MessageQueueImpl
+
+Then type rmiregistry
+
+Once done this, dont touch the command line. You need to open 2 more new cmd. 
+
+So you should now have 3 command lines
+
+In one of the new ones type java -Djava.security.policy=java.policy MessageQueueImpl and in the other java -Djava.security.policy=java.policy Factory 127.0.0.1

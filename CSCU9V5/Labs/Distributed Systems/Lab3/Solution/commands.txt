@@ -1,0 +1,5 @@
+javac *.java 
+java Node 7000 7001
+java Node 7001 7002
+java Node 7002 7000
+java start 7000
